@@ -21,6 +21,12 @@ index `i` in [29917, 0, 1].
 smallest(1000000) --> [1, 0, 6] or ... */
 
 
+/* Store the digits in an array using mod10. sort array. compare sorted 'lowest number array' to actual number.
+Find the first number that is not 'optimal' position. If moving that number right will shift the following digit to 'optimal' 
+position, then move that digit right until you hit a number higher than that digit. Otherwise, find the lowest value digit in the array
+not in optimal position, and move it to the lowest position where it is 'optimal'. Return this first optimizing step, location of the 
+moved digit and destination. */
+
 using System;
 using System.Collections.Generic;
 
